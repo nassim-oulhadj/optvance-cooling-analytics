@@ -49,7 +49,7 @@ pip install -r requirements.txt
 
 # NOTE FOR MAC USERS: XGBoost requires the libomp system library. 
 # If you are on a Mac, install it via Homebrew before running pip install:
-# brew install libomp
+brew install libomp
 
 # 2. NLTK stopwords corpus, needed only for notebook 08
 python -c "import nltk; nltk.download('stopwords')"
